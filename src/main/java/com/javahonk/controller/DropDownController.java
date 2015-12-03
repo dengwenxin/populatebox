@@ -16,7 +16,7 @@ public class DropDownController {
 	@RequestMapping(value = "/dropDown.web", method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
 		
-		System.out.println("drop");
+		System.out.println("drops");
 		return "dropDown";
 	}
 
